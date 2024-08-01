@@ -1,0 +1,33 @@
+{
+    "name": "GFPlayerActions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "1a1e2e5b-f32b-4b9f-a65d-eee82e4ee93a",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "PassThrough",
+                    "id": "35e2ad8e-47d5-4d63-88f6-dc56c24df8af",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "cf420bff-d5ff-43eb-8895-4594d3468980",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
