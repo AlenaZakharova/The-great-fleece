@@ -1,11 +1,12 @@
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.InputSystem;
 
 namespace The_Great_Fleece.Game.Scripts
 {
     public class Player : MonoBehaviour
     {
-        [SerializeField] private PlayerInput _playerInput;
+        [SerializeField] private NavMeshAgent _agent;
         private GFPlayerActions actions;
         private Camera camera;
 
@@ -28,9 +29,10 @@ namespace The_Great_Fleece.Game.Scripts
            var hit = new RaycastHit();
            if (Physics.Raycast(ray, out hit, 1000000000/*, LayerMask.NameToLayer("Floor")*/))
            {
-               GameObject sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+               _agent.SetDestination(hit.point);
+               /*GameObject sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
                sphere.transform.position = hit.point;
-               Debug.LogError(hit.collider.name);
+               Debug.LogError(hit.collider.name);*/
            }
         }
     

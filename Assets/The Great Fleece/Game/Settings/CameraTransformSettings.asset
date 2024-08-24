@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc857cd1b698c3141b66582c5beb62a9, type: 3}
+  m_Name: CameraTransformSettings
+  m_EditorClassIdentifier: 
+  cameraTransforms:
+  - TriggerObject: {fileID: 5194094084173996491, guid: f5c7cd127b1878344b33fc8d2545ce1b,
+      type: 3}
+    CameraTransorm: {fileID: 3825759759521762820, guid: 7ae4de7e43bad4441bdf30de09326920,
+      type: 3}
+  - TriggerObject: {fileID: 5097399875831591489, guid: 873d6a29bdd137544b22badf6958d4d7,
+      type: 3}
+    CameraTransorm: {fileID: 5647012254277368656, guid: de95909f74e6f1e4e9b159e9b4840013,
+      type: 3}
+  - TriggerObject: {fileID: 3849164551260250760, guid: 69c79f82ebbf43e40a4a5f9c7f412fbd,
+      type: 3}
+    CameraTransorm: {fileID: 1938134073033192580, guid: 3538c8b555f6a3b428fdb67ec0926e1b,
+      type: 3}
+  - TriggerObject: {fileID: 6463132043243999473, guid: f1159f67600d4e8468203258a504120b,
+      type: 3}
+    CameraTransorm: {fileID: 7020228675113550234, guid: e18f3accd4f070843acc3c32956e9b33,
+      type: 3}
+  - TriggerObject: {fileID: 621221949960102469, guid: 1622071d784d34d4f91b35e863a6763c,
+      type: 3}
+    CameraTransorm: {fileID: 4451701318154313277, guid: 5d036e4e2ded5f04bba8616d4d0d8541,
+      type: 3}
+  - TriggerObject: {fileID: 3170140990402662282, guid: 9f2a238975b182f4cb81e5d41654860f,
+      type: 3}
+    CameraTransorm: {fileID: 6383981732676361267, guid: 68a09bda53cfdf745add8e6a54b1ce4f,
+      type: 3}
